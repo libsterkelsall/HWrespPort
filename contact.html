@@ -10,6 +10,14 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css">
 
+    <!--add background color-->
+    <style>
+        main {
+            background: lightblue !important;
+            padding-top: 20px;
+        }
+    </style>
+
     <!--Description on tab in browser-->
     <title>Contact Libster</title>
 </head>
@@ -30,7 +38,7 @@
 
             <!--Put links in Navbar-->
             <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home </a>
                     </li>
@@ -42,11 +50,7 @@
                     </li>
                 </ul>
 
-                <!--Ambitious search button-->
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
             </div>
         </nav>
 
@@ -89,17 +93,24 @@
                                     <option>Problem Solving</option>
                                 </select>
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="exampleTextarea">Tell us some more:</label>
                                 <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                             </div>
-                           
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </fieldset>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </fieldset>
+                        <h4></h4>
                     </form>
         </main>
+        <!--Osmond Ong's sticky footer - thanks OO-->
+        <footer id="sticky-footer" class="py-2 bg-dark text-white-100">
+            <div class="container text-center">
+                <small style="color:white">Copyright The Libster 2020</small>
+            </div>
+        </footer>
 
         <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

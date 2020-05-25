@@ -10,6 +10,14 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css">
 
+    <!--add background color-->
+    <style>
+        main {
+            background: lightblue !important;
+            padding-top: 20px;
+        }
+    </style>
+
     <!--Description on tab in browser-->
     <title>Libster Online</title>
 
@@ -20,7 +28,7 @@
     <div class="container-fluid">
 
         <!-- Section 1: Navbar-->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
             <!--Put logo in Navbar-->
             <a class="navbar-brand" href="#">The Libster Lifestyle</a>
@@ -31,7 +39,7 @@
 
             <!--Collapsible button-->
             <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 
                     <!--Put links in Navbar-->
                     <li class="nav-item active">
@@ -45,29 +53,25 @@
                     </li>
                 </ul>
 
-                <!--Ambitious search button-->
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
             </div>
         </nav>
 
         <!--Main Information-->
         <main>
-
+            
             <!-- a Bootstrap row with columns -->
             <div class="row">
 
                 <!-- At large+ screens takes up half width (6/12) -->
                 <div class="col-lg-6">
 
-                    <!-- centered image with thumbnail rules -->
+                    <!-- bootstrap card -->
                     <div class="card mb-3">
                         <h3 class="card-header">Float like a butterfly</h3>
                         <div class="card-body">
                             <h5 class="card-title">Keep it beautiful</h5>
-                            <h6 class="card-subtitle text-muted">harmony abounds with lifestyle coordination</h6>
+                            <h6 class="card-subtitle text-muted">harmony with lifestyle coordination</h6>
                         </div>
                         <img style="height: 200px; width: 400px; display: block;" src="butterfly-2049567_640.jpg"
                             alt="Butterfly image">
@@ -78,13 +82,8 @@
                             <li class="list-group-item">Personalised Activities Planner</li>
                             <li class="list-group-item">House & Garden services</li>
                             <li class="list-group-item">Holiday Arrangements</li>
-
                         </ul>
-                        <div class="card-body">
-                            <a href="https://www.linkedin.com/in/libby-frayne-kelsall-5013925b"
-                                class="card-link">LinkedIn</a>
-                            <a href="https://www.facebook.com/libby.kelsall" class="card-link">FaceBook</a>
-                        </div>
+
                     </div>
                 </div>
 
@@ -96,28 +95,26 @@
                             <h4 class="card-title">Sting like a bee</h4>
                             <p class="card-text">There are also times where you need to make a stand and that can be
                                 overwhelming and prohibitively expensive.</p>
-                            <h4></h4>
+                            <br>
                             <p class="card-text">Let us help you assess what options are available for a resolution and
                                 if you need to we can prepare your material and refer you to the best "bees" in Perth.
                             </p>
-                            <h4></h4>
-                            <p class="card-text">Read through our references and contact us for a chat if you want to know more about how we can help you sort out problems.</p>
+                            <br>
+                            <p class="card-text">Read through our references and contact us for a chat if you want to
+                                know more about how we can help you sort out problems.</p>
+                        </div>
+                        <br>
+                        <div class="card-body">
+                            <a href="https://www.linkedin.com/in/libby-frayne-kelsall-5013925b"
+                                class="card-link">LinkedIn</a>
+                            <a href="https://www.facebook.com/libby.kelsall" class="card-link">FaceBook</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </main>
     </div>
-    </div>
-
-
-
-    </main>
-
-
-
-
-
-
+    
     <!-- Bootstrap's javascript files to make sure the dropdown menu works!  -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -128,8 +125,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
-
 
 </body>
 
